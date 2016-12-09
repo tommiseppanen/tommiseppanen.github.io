@@ -1,0 +1,134 @@
+[{
+    "description": "After reading the book \"Programming in Haskell\" by Graham Huttom, I wanted to go back to the game of life example and implement own version of it with a graphical user interface. I did quick search of Haskell GUI libraries and found out that there exists Haskell bindings for Qt Quick. I was familiar with Qt but I didn't have any experience with QML so I decided that now is the perfect time to try it out.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/screenshot2.png",
+    "published": "2014-12-24T22:00:00Z",
+    "technologies": ["Haskell", "HsQML"],
+    "name": "Game of life (HsQML)",
+    "url": "https://github.com/tommiseppanen/game-of-life-hsqml"
+}, {
+    "description": "Simple dice game for one or two players. One of the first games I implemented at the age of thirteen.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/tusina.png",
+    "published": "2000-01-01T00:00:00Z",
+    "technologies": ["Visual Basic"],
+    "name": "Täysi Tusina",
+    "url": ""
+}, {
+    "description": "Reaction game made for Windows.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/nopeustesti.png",
+    "published": "2000-02-01T00:00:00Z",
+    "technologies": ["Visual Basic"],
+    "name": "Nopeustesti",
+    "url": ""
+}, {
+    "description": "Who Wants to Be a Millionaire style game with high-score list.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/tietaiarv.jpg",
+    "published": "2001-01-01T00:00:00Z",
+    "technologies": ["Visual Basic"],
+    "name": "Tiedä tai Arvaa",
+    "url": ""
+}, {
+    "description": "Formula 1 management game that has text based UI. One of my first C++ programs.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/f1man.jpg",
+    "published": "2003-02-01T00:00:00Z",
+    "technologies": ["C++"],
+    "name": "F1 Manageri",
+    "url": ""
+}, {
+    "description": "This was a very diverse game project. I was studying physics & math, recording sounds, drawing graphics and of course programming. The goal of the projet was to focus on realistic physics instead of cool graphics. Features: automatic track generation, sounds, collision detection, simple graphics but advanced physics (torque curves, slip angles, aerodynamics, Runge-Kutta integration RK4)",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/rally_roads.png",
+    "published": "2006-01-01T00:00:00Z",
+    "technologies": ["C++", "SDL", "OpenAL"],
+    "name": "Rally Roads",
+    "url": ""
+}, {
+    "description": "Plugin for playing pacenotes in rFactor racing simulation. The plugin used DirectMusic/DirectSound API to play the audio files. The screenshot is just showing the configuration file in Notepad.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/pacenotes.png",
+    "published": "2006-02-02T00:00:00Z",
+    "technologies": ["C++"],
+    "name": "rFactor Pacenotes Plugin",
+    "url": ""
+}, {
+    "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/twc.png",
+    "published": "2014-03-03T06:03:32.834Z",
+    "technologies": ["Unity3D", "C#", "UnityScript"],
+    "name": "Two Wheel Challenge",
+    "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
+}, {
+    "description": "Single-page application for creating and sharing portfolios. The application utilizes MEAN (MongoDB, Express, AngularJS, Node.js) stack. Users can share a link to their portfolio to showcase their talents.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/portfolio.png",
+    "published": "2014-02-14T05:46:22.486Z",
+    "technologies": ["MongoDB", "Express", "AngularJS", "Node.js", "HTML", "CSS", "Bootstrap", "Swig", "JavaScript"],
+    "name": "My Projects Portfolio",
+    "url": ""
+}, {
+    "description": "Simple grocery list application for Android. Available for download at the Play store.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/groceries.png",
+    "published": "2013-12-12T00:00:00Z",
+    "technologies": ["Java", "Google Analytics for mobile", "AdSense advertisements"],
+    "name": "Buy These Groceries",
+    "url": "https://play.google.com/store/apps/details?id=com.tomtase.buythese&hl=fi"
+}, {
+    "description": "A Facebook game where you can create your own racing team and compete with your friends.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/rmo.png",
+    "published": "2013-03-01T00:00:00Z",
+    "technologies": ["Python", "JavaScript", "HTML", "CSS", "Google App Engine", "Django", "jQuery", "Google Charts"],
+    "name": "Racing Manager Online",
+    "url": "http://racingmanageronline.appspot.com"
+}, {
+    "description": "I was the webmaster of OtaKoppi ry during 2009 - 2012. During those years I implemented and maintained the otakoppi.fi website. The website was running in Joomla content management system. I also implemented some membership management features with PHP to the site. For example, I created a registration form for new members and some administration functionalities, such as, sending automatically generated emails about membership fee.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/otakoppi.png",
+    "published": "2012-02-12T00:00:00Z",
+    "technologies": ["Joomla", "PHP", "MySQL", "HTML", "CSS"],
+    "name": "otakoppi.fi",
+    "url": "http://otakoppi.fi/"
+}, {
+    "description": "I implemented a website for the Finnish Student Championship games in finnish baseball for the years 2010 and 2011. The website had information about the event and a registration form made with PHP.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/opsm.png",
+    "published": "2011-10-11T00:00:00Z",
+    "technologies": ["PHP", "MySQL", "HTML", "CSS"],
+    "name": "otakoppi.fi/opsm",
+    "url": "http://otakoppi.fi/opsm/"
+}, {
+    "description": "Me and my friend implemented the noto.fi website based on already designed visual layouts. I used PHP to create support for multiple languages and to implement a picture gallery.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/noto.png",
+    "published": "2010-02-17T00:00:00Z",
+    "technologies": ["PHP", "HTML", "CSS"],
+    "name": "noto.fi",
+    "url": "http://noto.fi"
+}, {
+    "description": "A reaction game made for S60 touchscreen devices.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/react.png",
+    "published": "2009-02-04T00:00:00Z",
+    "technologies": ["C++", "Qt"],
+    "name": "React",
+    "url": ""
+}, {
+    "description": "I made this game together with my fellow university student. I implemented the skybox, environment mapping and the glow effects.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/cube.png",
+    "published": "2009-01-01T00:00:00Z",
+    "technologies": ["Java", "OpenGL", "SDL"],
+    "name": "Rubik's Cube",
+    "url": ""
+}, {
+    "description": "Turn-based racing game for 1 – 2 players. I also implemented AI driver for the game.",
+    "imageurl": "http://personal.inet.fi/cool/myportfolio/images/formula.png",
+    "published": "2007-01-01T00:00:00Z",
+    "technologies": ["Java"],
+    "name": "Formula peli",
+    "url": ""
+}, {
+    "description": "BigT (Basic internalization/globalization Translations) is an easy to use localization library inpired by QT's tr() translation function. Translations are stored in a CSV file so translators can work, for example, with Excel or Google Sheets.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/BigT.png",
+    "published": "2016-04-10T21:00:00Z",
+    "technologies": ["C#", "MyGet"],
+    "name": "BigT",
+    "url": "https://github.com/tommiseppanen/BigT"
+}, {
+    "description": "Felis is a single page application I have been developing to study ClojureScript and Reagent.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/felis.png",
+    "published": "2015-04-27T21:00:00Z",
+    "technologies": ["Clojure", "ClojureScript", "Reagent"],
+    "name": "Felis - Simple todo app",
+    "url": "https://github.com/tommiseppanen/felis"
+}]
