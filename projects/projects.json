@@ -49,14 +49,14 @@
     "url": ""
 }, {
     "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/twc.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/twc.jpg",
     "published": "2014-03-03T06:03:32.834Z",
     "technologies": ["Unity3D", "C#", "UnityScript"],
     "name": "Two Wheel Challenge",
     "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
 }, {
     "description": "Single-page application for creating and sharing portfolios. The application utilizes MEAN (MongoDB, Express, AngularJS, Node.js) stack. Users can share a link to their portfolio to showcase their talents.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/mpp.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/mpp.jpg",
     "published": "2014-02-14T05:46:22.486Z",
     "technologies": ["MongoDB", "Express", "AngularJS", "Node.js", "HTML", "CSS", "Bootstrap", "Swig", "JavaScript"],
     "name": "My Projects Portfolio",
@@ -84,28 +84,28 @@
     "url": "http://otakoppi.fi/"
 }, {
     "description": "I implemented a website for the Finnish Student Championship games in finnish baseball for the years 2010 and 2011. The website had information about the event and a registration form made with PHP.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/opsm.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/opsm.jpg",
     "published": "2011-10-11T00:00:00Z",
     "technologies": ["PHP", "MySQL", "HTML", "CSS"],
     "name": "otakoppi.fi/opsm",
     "url": "http://otakoppi.fi/opsm/"
 }, {
     "description": "Me and my friend implemented the noto.fi website based on already designed visual layouts. I used PHP to create support for multiple languages and to implement a picture gallery.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/noto.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/noto.jpg",
     "published": "2010-02-17T00:00:00Z",
     "technologies": ["PHP", "HTML", "CSS"],
     "name": "noto.fi",
     "url": "http://noto.fi"
 }, {
     "description": "A reaction game made for S60 touchscreen devices.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/react.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/react.jpg",
     "published": "2009-02-04T00:00:00Z",
     "technologies": ["C++", "Qt"],
     "name": "React",
     "url": ""
 }, {
     "description": "I made this game together with my fellow university student. I implemented the skybox, environment mapping and the glow effects.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/cube.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/cube.jpg",
     "published": "2009-01-01T00:00:00Z",
     "technologies": ["Java", "OpenGL", "SDL"],
     "name": "Rubik's Cube",
