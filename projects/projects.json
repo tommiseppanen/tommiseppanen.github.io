@@ -1,13 +1,13 @@
 [{
     "description": "After reading the book \"Programming in Haskell\" by Graham Huttom, I wanted to go back to the game of life example and implement own version of it with a graphical user interface. I did quick search of Haskell GUI libraries and found out that there exists Haskell bindings for Qt Quick. I was familiar with Qt but I didn't have any experience with QML so I decided that now is the perfect time to try it out.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/screenshot2.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/screenshot2.png",
     "published": "2014-12-24T22:00:00Z",
     "technologies": ["Haskell", "HsQML"],
     "name": "Game of life (HsQML)",
     "url": "https://github.com/tommiseppanen/game-of-life-hsqml"
 }, {
     "description": "Simple dice game for one or two players. One of the first games I implemented at the age of thirteen.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/tusina.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/tusina.png",
     "published": "2000-01-01T00:00:00Z",
     "technologies": ["Visual Basic"],
     "name": "Täysi Tusina",
@@ -56,7 +56,7 @@
     "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
 }, {
     "description": "Single-page application for creating and sharing portfolios. The application utilizes MEAN (MongoDB, Express, AngularJS, Node.js) stack. Users can share a link to their portfolio to showcase their talents.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/mpp.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/mpp.png",
     "published": "2014-02-14T05:46:22.486Z",
     "technologies": ["MongoDB", "Express", "AngularJS", "Node.js", "HTML", "CSS", "Bootstrap", "Swig", "JavaScript"],
     "name": "My Projects Portfolio",
@@ -119,28 +119,28 @@
     "url": ""
 }, {
     "description": "BigT (Basic internalization/globalization Translations) is an easy to use localization library inpired by QT's tr() translation function. Translations are stored in a CSV file so translators can work, for example, with Excel or Google Sheets.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/BigT.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/BigT.png",
     "published": "2016-04-10T21:00:00Z",
     "technologies": ["C#", "MyGet"],
     "name": "BigT",
     "url": "https://github.com/tommiseppanen/BigT"
 }, {
     "description": "Felis is a single page application I have been developing to study ClojureScript and Reagent.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/felis.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/felis.png",
     "published": "2015-04-27T21:00:00Z",
     "technologies": ["Clojure", "ClojureScript", "Reagent"],
     "name": "Felis - Simple todo app",
     "url": "https://github.com/tommiseppanen/felis"
 }, {
     "description": "A tile for Windows Start menu for displaying how many hours you have worked today.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/WorkTimeApp.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/WorkTimeApp.png",
     "published": "2016-09-23T21:00:00Z",
     "technologies": ["C#", "UWP"],
     "name": "WorkTimeApp",
     "url": "https://github.com/tommiseppanen/WorkTimeApp"
 }, {
     "description": "Scala program that runs in AWS cloud. Can be used to enrich RSS feeds so that the feed items will contain the whole article in description field.",
-    "imageurl": "http://tommiseppanen.github.io/screenshots/feed-enricher.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/feed-enricher.png",
     "published": "2016-11-27T21:00:00Z",
     "technologies": ["Scala", "AWS Lambda", "AWS S3"],
     "name": "Feed Enricher",
