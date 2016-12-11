@@ -147,7 +147,7 @@
     "url": "https://github.com/tommiseppanen/feed-enricher"
 }, {
     "description": "A web page that lists my hobby programming projects. Uses React for user interface components, ES6 features for data fetching and Webpack for bundling.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/portfolio.png",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/portfolio.jpg",
     "published": "2016-12-11T21:00:00Z",
     "technologies": ["React", "ES6", "Sass", "Webpack"],
     "name": "Tommi's Portfolio",
