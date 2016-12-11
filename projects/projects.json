@@ -131,4 +131,18 @@
     "technologies": ["Clojure", "ClojureScript", "Reagent"],
     "name": "Felis - Simple todo app",
     "url": "https://github.com/tommiseppanen/felis"
+}, {
+    "description": "A tile for Windows Start menu for displaying how many hours you have worked today.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/WorkTimeApp.png",
+    "published": "2016-09-23T21:00:00Z",
+    "technologies": ["C#", "UWP"],
+    "name": "WorkTimeApp",
+    "url": "https://github.com/tommiseppanen/WorkTimeApp"
+}, {
+    "description": "Scala program that runs in AWS cloud. Can be used to enrich RSS feeds so that the feed items will contain the whole article in description field.",
+    "imageurl": "http://tommiseppanen.github.io/screenshots/feed-enricher.png",
+    "published": "2016-11-27T21:00:00Z",
+    "technologies": ["Scala", "AWS Lambda", "AWS S3"],
+    "name": "Feed Enricher",
+    "url": "https://github.com/tommiseppanen/feed-enricher"
 }]
