@@ -51,7 +51,7 @@
     "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
     "imageurl": "https://tommiseppanen.github.io/screenshots/twc.jpg",
     "published": "2014-03-03T06:03:32.834Z",
-    "technologies": ["Unity3D", "C#", "UnityScript"],
+    "technologies": ["Unity", "C#", "UnityScript"],
     "name": "Two Wheel Challenge",
     "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
 }, {
