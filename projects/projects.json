@@ -152,4 +152,11 @@
     "technologies": ["React", "ES6", "Sass", "Webpack"],
     "name": "Tommi's Portfolio",
     "url": "https://github.com/tommiseppanen/portfolio"
+}, {
+    "description": "An Unity project that displays my portfolio in virtual reality. I built this to gain experience of virtual reality interaction methods. I also wanted to try out to fetch data asynchronously from web to Unity application.",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/middle-of-nowhere.jpg",
+    "published": "2017-02-24T21:00:00Z",
+    "technologies": ["Unity", "C#", "Cg/HLSL"],
+    "name": "In the Middle of Nowhere",
+    "url": "https://github.com/tommiseppanen/middle-of-nowhere"
 }]
