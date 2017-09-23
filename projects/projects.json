@@ -160,7 +160,7 @@
     "name": "In the Middle of Nowhere",
     "url": "https://github.com/tommiseppanen/middle-of-nowhere"
 }, {
-    "description": "Open source wheel collider for Unity",
+    "description": "Open source wheel collider for Unity. I wasn't completely satisfied with Unity's built-in wheel collider so I decided to implement my own.",
     "imageurl": "https://tommiseppanen.github.io/screenshots/primetyre.png",
     "published": "2017-08-14T21:00:00Z",
     "technologies": ["Unity", "C#"],
