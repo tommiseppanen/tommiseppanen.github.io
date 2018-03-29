@@ -51,7 +51,7 @@
     "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
     "imageurl": "https://tommiseppanen.github.io/screenshots/twc.jpg",
     "published": "2014-03-03T06:03:32.834Z",
-    "technologies": ["Unity", "C#", "UnityScript"],
+    "technologies": ["C#", "UnityScript", "Unity"],
     "name": "Two Wheel Challenge",
     "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
 }, {
@@ -156,14 +156,14 @@
     "description": "An Unity project that displays my portfolio in virtual reality. I built this to gain experience of virtual reality interaction methods. I also wanted to try out to fetch data asynchronously from web to Unity application.",
     "imageurl": "https://tommiseppanen.github.io/screenshots/middle-of-nowhere.jpg",
     "published": "2017-02-24T21:00:00Z",
-    "technologies": ["Unity", "C#", "Cg/HLSL"],
+    "technologies": ["C#", "Cg/HLSL", "Unity"],
     "name": "In the Middle of Nowhere",
     "url": "https://github.com/tommiseppanen/middle-of-nowhere"
 }, {
     "description": "Open source wheel collider for Unity. I wasn't completely satisfied with Unity's built-in wheel collider so I decided to implement my own.",
     "imageurl": "https://tommiseppanen.github.io/screenshots/primetyre.png",
     "published": "2017-08-14T21:00:00Z",
-    "technologies": ["Unity", "C#"],
+    "technologies": ["C#", "Unity"],
     "name": "PrimeTyre",
     "url": "https://github.com/tommiseppanen/PrimeTyre"
 }, {
