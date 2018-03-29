@@ -173,4 +173,11 @@
     "technologies": ["Kotlin"],
     "name": "Hotspot Logger",
     "url": "https://github.com/tommiseppanen/hotspot-logger"
+}, {
+    "description": "Store/inventory system for Unity",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/simple-store.png",
+    "published": "2018-03-29T21:00:00Z",
+    "technologies": ["C#", "Unity", "UniRx", "Zenject"],
+    "name": "Simple Store",
+    "url": "https://github.com/tommiseppanen/simple-store"
 }]
