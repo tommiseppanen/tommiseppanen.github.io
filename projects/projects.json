@@ -194,4 +194,11 @@
     "technologies": ["JavaScript", "React Native"],
     "name": "Jason",
     "url": "https://play.google.com/store/apps/details?id=com.tomtase.jason"
+}, {
+    "description": "Single page web template with a guestbook",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/wedding-site.png",
+    "published": "2018-02-05T21:00:00Z",
+    "technologies": ["HTML", "PostCSS", "webpack", "Firebase"],
+    "name": "Wedding site",
+    "url": ""
 }]
