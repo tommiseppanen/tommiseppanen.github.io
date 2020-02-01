@@ -221,7 +221,7 @@
     "description": "A sleep log application I made to experiment with React hooks and TypeScript",
     "imageurl": "https://tommiseppanen.github.io/screenshots/zzz-tracker.png",
     "published": "2020-02-01T13:00:00Z",
-    "technologies": ["TypeScript", "React"],
+    "technologies": ["TypeScript", "React", "PWA"],
     "name": "zzz-tracker",
     "url": "https://github.com/tommiseppanen/zzz-tracker"
 }]
