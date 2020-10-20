@@ -224,4 +224,12 @@
     "technologies": ["TypeScript", "React", "PWA"],
     "name": "zzz-tracker",
     "url": "https://github.com/tommiseppanen/zzz-tracker"
+},
+{
+    "description": "Virtual reality application for comparing visual clarity differences between headsets.",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/vr-clarity-test.png",
+    "published": "2020-04-21T21:00:00Z",
+    "technologies": ["C#", "Unity"],
+    "name": "VR Clarity Test",
+    "url": "https://github.com/tommiseppanen/vr-clarity-test"
 }]
