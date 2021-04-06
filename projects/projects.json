@@ -232,4 +232,12 @@
     "technologies": ["C#", "Unity"],
     "name": "VR Clarity Test",
     "url": "https://github.com/tommiseppanen/vr-clarity-test"
+},
+{
+    "description": "Simple DIY Formula 1 world championship betting game. You can play this with your friends by attaching the script to a shared Google sheet.",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/formula-champion.png",
+    "published": "2021-04-05T21:00:00Z",
+    "technologies": ["JavaScript"],
+    "name": "Formula Champion",
+    "url": "https://github.com/tommiseppanen/formula-champion"
 }]
