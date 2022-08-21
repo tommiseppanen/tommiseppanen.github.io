@@ -240,4 +240,12 @@
     "technologies": ["JavaScript"],
     "name": "Formula Champion",
     "url": "https://github.com/tommiseppanen/formula-champion"
+},
+{
+    "description": "A Google Sheets script that works as a helper tool for my Formula Champion game. Helps you to figure out which drivers to bet.",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/formula-speculator.jpg",
+    "published": "2022-08-21T12:00:00Z",
+    "technologies": ["JavaScript"],
+    "name": "Formula Speculator",
+    "url": "https://github.com/tommiseppanen/formula-speculator"
 }]
