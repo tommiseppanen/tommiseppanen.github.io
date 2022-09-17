@@ -248,4 +248,12 @@
     "technologies": ["JavaScript"],
     "name": "Formula Speculator",
     "url": "https://github.com/tommiseppanen/formula-speculator"
+},
+{
+    "description": "A simple wayfinding example. Calculates the route between different gates in Helsinki Airport",
+    "imageurl": "https://tommiseppanen.github.io/screenshots/wayfinding.jpg",
+    "published": "2022-09-17T12:00:00Z",
+    "technologies": ["TypeScript"],
+    "name": "Wayfinding",
+    "url": "https://github.com/tommiseppanen/wayfinding"
 }]
