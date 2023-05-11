@@ -1,259 +1,429 @@
-[{
-    "description": "After reading the book \"Programming in Haskell\" by Graham Huttom, I wanted to go back to the game of life example and implement own version of it with a graphical user interface. I did quick search of Haskell GUI libraries and found out that there exists Haskell bindings for Qt Quick. I was familiar with Qt but I didn't have any experience with QML so I decided that now is the perfect time to try it out.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/screenshot2.png",
-    "published": "2014-12-24T22:00:00Z",
-    "technologies": ["Haskell", "HsQML"],
-    "name": "Game of life (HsQML)",
-    "url": "https://github.com/tommiseppanen/game-of-life-hsqml"
-}, {
-    "description": "Simple dice game for one or two players. One of the first games I implemented at the age of thirteen.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/tusina.png",
-    "published": "2000-01-01T00:00:00Z",
-    "technologies": ["Visual Basic"],
-    "name": "Täysi Tusina",
-    "url": ""
-}, {
-    "description": "Reaction game made for Windows.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/nopeustesti.png",
-    "published": "2000-02-01T00:00:00Z",
-    "technologies": ["Visual Basic"],
-    "name": "Nopeustesti",
-    "url": ""
-}, {
-    "description": "Who Wants to Be a Millionaire style game with high-score list.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/tietaiarv.jpg",
-    "published": "2001-01-01T00:00:00Z",
-    "technologies": ["Visual Basic"],
-    "name": "Tiedä tai Arvaa",
-    "url": ""
-}, {
-    "description": "Formula 1 management game that has text based UI. One of my first C++ programs.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/f1man.jpg",
-    "published": "2003-02-01T00:00:00Z",
-    "technologies": ["C++"],
-    "name": "F1 Manageri",
-    "url": ""
-}, {
-    "description": "This was a very diverse game project. I was studying physics & math, recording sounds, drawing graphics and of course programming. The goal of the projet was to focus on realistic physics instead of cool graphics. Features: automatic track generation, sounds, collision detection, simple graphics but advanced physics (torque curves, slip angles, aerodynamics, Runge-Kutta integration RK4)",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/rally_roads.png",
-    "published": "2006-01-01T00:00:00Z",
-    "technologies": ["C++", "SDL", "OpenAL"],
-    "name": "Rally Roads",
-    "url": ""
-}, {
-    "description": "Plugin for playing pacenotes in rFactor racing simulation. The plugin used DirectMusic/DirectSound API to play the audio files. The screenshot is just showing the configuration file in Notepad.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/pacenotes.png",
-    "published": "2006-02-02T00:00:00Z",
-    "technologies": ["C++"],
-    "name": "rFactor Pacenotes Plugin",
-    "url": ""
-}, {
-    "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/twc.jpg",
-    "published": "2014-03-03T06:03:32.834Z",
-    "technologies": ["C#", "UnityScript", "Unity"],
-    "name": "Two Wheel Challenge",
-    "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
-}, {
-    "description": "Single-page application for creating and sharing portfolios. The application utilizes MEAN (MongoDB, Express, AngularJS, Node.js) stack. Users can share a link to their portfolio to showcase their talents.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/mpp.jpg",
-    "published": "2014-02-14T05:46:22.486Z",
-    "technologies": ["MongoDB", "Express", "AngularJS", "Node.js", "HTML", "CSS", "Bootstrap", "Swig", "JavaScript"],
-    "name": "My Projects Portfolio",
-    "url": ""
-}, {
-    "description": "Simple grocery list application for Android. Available for download at the Play store.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/groceries.png",
-    "published": "2013-12-12T00:00:00Z",
-    "technologies": ["Java", "Google Analytics for mobile", "AdSense advertisements"],
-    "name": "Buy These Groceries",
-    "url": "https://play.google.com/store/apps/details?id=com.tomtase.buythese&hl=fi"
-}, {
-    "description": "A Facebook game where you can create your own racing team and compete with your friends.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/rmo.png",
-    "published": "2013-03-01T00:00:00Z",
-    "technologies": ["Python", "JavaScript", "HTML", "CSS", "Google App Engine", "Django", "jQuery", "Google Charts"],
-    "name": "Racing Manager Online",
-    "url": "http://racingmanageronline.appspot.com"
-}, {
-    "description": "I was the webmaster of OtaKoppi ry during 2009 - 2012. During those years I implemented and maintained the otakoppi.fi website. The website was running in Joomla content management system. I also implemented some membership management features with PHP to the site. For example, I created a registration form for new members and some administration functionalities, such as, sending automatically generated emails about membership fee.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/otakoppi.png",
-    "published": "2012-02-12T00:00:00Z",
-    "technologies": ["Joomla", "PHP", "MySQL", "HTML", "CSS"],
-    "name": "otakoppi.fi",
-    "url": "http://otakoppi.fi/"
-}, {
-    "description": "I implemented a website for the Finnish Student Championship games in finnish baseball for the years 2010 and 2011. The website had information about the event and a registration form made with PHP.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/opsm.jpg",
-    "published": "2011-10-11T00:00:00Z",
-    "technologies": ["PHP", "MySQL", "HTML", "CSS"],
-    "name": "otakoppi.fi/opsm",
-    "url": "http://otakoppi.fi/opsm/"
-}, {
-    "description": "Me and my friend implemented the noto.fi website based on already designed visual layouts. I used PHP to create support for multiple languages and to implement a picture gallery.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/noto.jpg",
-    "published": "2010-02-17T00:00:00Z",
-    "technologies": ["PHP", "HTML", "CSS"],
-    "name": "noto.fi",
-    "url": "http://noto.fi"
-}, {
-    "description": "A reaction game made for S60 touchscreen devices.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/react.jpg",
-    "published": "2009-02-04T00:00:00Z",
-    "technologies": ["C++", "Qt"],
-    "name": "React",
-    "url": ""
-}, {
-    "description": "I made this game together with my fellow university student. I implemented the skybox, environment mapping and the glow effects.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/cube.jpg",
-    "published": "2009-01-01T00:00:00Z",
-    "technologies": ["Java", "OpenGL", "SDL"],
-    "name": "Rubik's Cube",
-    "url": ""
-}, {
-    "description": "Turn-based racing game for 1 – 2 players. I also implemented AI driver for the game.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/formula.png",
-    "published": "2007-01-01T00:00:00Z",
-    "technologies": ["Java"],
-    "name": "Formula peli",
-    "url": ""
-}, {
-    "description": "BigT (Basic internalization/globalization Translations) is an easy to use localization library inpired by QT's tr() translation function. Translations are stored in a CSV file so translators can work, for example, with Excel or Google Sheets.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/BigT.png",
-    "published": "2016-04-10T21:00:00Z",
-    "technologies": ["C#", "MyGet"],
-    "name": "BigT",
-    "url": "https://github.com/tommiseppanen/BigT"
-}, {
-    "description": "Felis is a single page application I have been developing to study ClojureScript and Reagent.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/felis.png",
-    "published": "2015-04-27T21:00:00Z",
-    "technologies": ["Clojure", "ClojureScript", "Reagent"],
-    "name": "Felis - Simple todo app",
-    "url": "https://github.com/tommiseppanen/felis"
-}, {
-    "description": "A tile for Windows Start menu for displaying how many hours you have worked today.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/WorkTimeApp.png",
-    "published": "2016-09-23T21:00:00Z",
-    "technologies": ["C#", "UWP"],
-    "name": "WorkTimeApp",
-    "url": "https://github.com/tommiseppanen/WorkTimeApp"
-}, {
-    "description": "Scala program that runs in AWS cloud. Can be used to enrich RSS feeds so that the feed items will contain the whole article in description field.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/feed-enricher.png",
-    "published": "2016-11-27T21:00:00Z",
-    "technologies": ["Scala", "AWS Lambda", "AWS S3"],
-    "name": "Feed Enricher",
-    "url": "https://github.com/tommiseppanen/feed-enricher"
-}, {
-    "description": "A web page that lists my hobby programming projects. Uses React for user interface components, ES6 features for data fetching and Webpack for bundling.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/portfolio.jpg",
-    "published": "2016-12-11T21:00:00Z",
-    "technologies": ["React", "ES6", "Sass", "Webpack"],
-    "name": "Tommi's Portfolio",
-    "url": "https://github.com/tommiseppanen/portfolio"
-}, {
-    "description": "An Unity project that displays my portfolio in virtual reality. I built this to gain experience of virtual reality interaction methods. I also wanted to try out to fetch data asynchronously from web to Unity application.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/middle-of-nowhere.jpg",
-    "published": "2017-02-24T21:00:00Z",
-    "technologies": ["C#", "Cg/HLSL", "Unity"],
-    "name": "In the Middle of Nowhere",
-    "url": "https://github.com/tommiseppanen/middle-of-nowhere"
-}, {
-    "description": "Open source wheel collider for Unity. I wasn't completely satisfied with Unity's built-in wheel collider so I decided to implement my own.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/primetyre.png",
-    "published": "2017-08-14T21:00:00Z",
-    "technologies": ["C#", "Unity"],
-    "name": "PrimeTyre",
-    "url": "https://github.com/tommiseppanen/PrimeTyre"
-}, {
-    "description": "Android application that displays when phone was connected to (and disconnected from) Wi-Fi hotspots.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/hotspot-logger.png",
-    "published": "2017-09-24T21:00:00Z",
-    "technologies": ["Kotlin"],
-    "name": "Hotspot Logger",
-    "url": "https://github.com/tommiseppanen/hotspot-logger"
-}, {
-    "description": "Store/inventory system for Unity. Designed for easy use and customization. Uses Zenject to keep the implementation loosely coupled. Utilizes UniRx to implement Model - View - Reactive Presenter pattern for the user interface.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/simple-store.png",
-    "published": "2018-03-29T21:00:00Z",
-    "technologies": ["C#", "Unity", "UniRx", "Zenject"],
-    "name": "Simple Store",
-    "url": "https://github.com/tommiseppanen/simple-store"
-}, {
-    "description": "Mobile application for tracking work time.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/nine-to-five.jpg",
-    "published": "2018-07-14T21:00:00Z",
-    "technologies": ["JavaScript", "React Native"],
-    "name": "Nine to Five",
-    "url": "https://github.com/tommiseppanen/nine-to-five"
-}, {
-    "description": "Easy to use app for tracking baby/newborn feeding times.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/jason.jpg",
-    "published": "2018-08-20T21:00:00Z",
-    "technologies": ["JavaScript", "React Native"],
-    "name": "Jason",
-    "url": "https://play.google.com/store/apps/details?id=com.tomtase.jason"
-}, {
-    "description": "Single page web template with a guestbook",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/wedding-site.png",
-    "published": "2018-02-05T21:00:00Z",
-    "technologies": ["HTML", "PostCSS", "webpack", "Firebase"],
-    "name": "Wedding site",
-    "url": ""
-}, {
-    "description": "Wear OS version of the Nine to Five application. Designed for tracking work time.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/nine-to-five-wear.png",
-    "published": "2019-04-21T13:00:00Z",
-    "technologies": ["Kotlin"],
-    "name": "Nine to Five (Wear OS)",
-    "url": "https://github.com/tommiseppanen/nine-to-five-wear-os"
-},
-{
-    "description": "Wear OS watch face with support for complications",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/razorbill.png",
-    "published": "2019-05-31T13:00:00Z",
-    "technologies": ["Kotlin"],
-    "name": "Razorbill",
-    "url": "https://github.com/tommiseppanen/razorbill"
-},
-{
-    "description": "A sleep log application I made to experiment with React hooks and TypeScript",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/zzz-tracker.png",
-    "published": "2020-02-01T13:00:00Z",
-    "technologies": ["TypeScript", "React", "PWA"],
-    "name": "zzz-tracker",
-    "url": "https://github.com/tommiseppanen/zzz-tracker"
-},
-{
-    "description": "Virtual reality application for comparing visual clarity differences between headsets.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/vr-clarity-test.png",
-    "published": "2020-04-21T21:00:00Z",
-    "technologies": ["C#", "Unity"],
-    "name": "VR Clarity Test",
-    "url": "https://github.com/tommiseppanen/vr-clarity-test"
-},
-{
-    "description": "Simple DIY Formula 1 world championship betting game. You can play this with your friends by attaching the script to a shared Google sheet.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/formula-champion.png",
-    "published": "2021-04-05T21:00:00Z",
-    "technologies": ["JavaScript"],
-    "name": "Formula Champion",
-    "url": "https://github.com/tommiseppanen/formula-champion"
-},
-{
-    "description": "A Google Sheets script that works as a helper tool for my Formula Champion game. Helps you to figure out which drivers to bet.",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/formula-speculator.jpg",
-    "published": "2022-08-21T12:00:00Z",
-    "technologies": ["JavaScript"],
-    "name": "Formula Speculator",
-    "url": "https://github.com/tommiseppanen/formula-speculator"
-},
-{
-    "description": "A simple wayfinding example. Calculates the route between different gates in Helsinki Airport",
-    "imageurl": "https://tommiseppanen.github.io/screenshots/wayfinding.jpg",
-    "published": "2022-09-17T12:00:00Z",
-    "technologies": ["TypeScript"],
-    "name": "Wayfinding",
-    "url": "https://github.com/tommiseppanen/wayfinding"
-}]
+[
+    {
+        "description": "After reading the book \"Programming in Haskell\" by Graham Huttom, I wanted to go back to the game of life example and implement own version of it with a graphical user interface. I did quick search of Haskell GUI libraries and found out that there exists Haskell bindings for Qt Quick. I was familiar with Qt but I didn't have any experience with QML so I decided that now is the perfect time to try it out.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/screenshot2.png",
+        "published": "2014-12-24T22:00:00Z",
+        "technologies": [
+            "Haskell",
+            "HsQML"
+        ],
+        "name": "Game of life (HsQML)",
+        "url": "https://github.com/tommiseppanen/game-of-life-hsqml"
+    },
+    {
+        "description": "Simple dice game for one or two players. One of the first games I implemented at the age of thirteen.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/tusina.png",
+        "published": "2000-01-01T00:00:00Z",
+        "technologies": [
+            "Visual Basic"
+        ],
+        "name": "Täysi Tusina",
+        "url": ""
+    },
+    {
+        "description": "Reaction game made for Windows.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/nopeustesti.png",
+        "published": "2000-02-01T00:00:00Z",
+        "technologies": [
+            "Visual Basic"
+        ],
+        "name": "Nopeustesti",
+        "url": ""
+    },
+    {
+        "description": "Who Wants to Be a Millionaire style game with high-score list.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/tietaiarv.jpg",
+        "published": "2001-01-01T00:00:00Z",
+        "technologies": [
+            "Visual Basic"
+        ],
+        "name": "Tiedä tai Arvaa",
+        "url": ""
+    },
+    {
+        "description": "Formula 1 management game that has text based UI. One of my first C++ programs.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/f1man.jpg",
+        "published": "2003-02-01T00:00:00Z",
+        "technologies": [
+            "C++"
+        ],
+        "name": "F1 Manageri",
+        "url": ""
+    },
+    {
+        "description": "This was a very diverse game project. I was studying physics & math, recording sounds, drawing graphics and of course programming. The goal of the projet was to focus on realistic physics instead of cool graphics. Features: automatic track generation, sounds, collision detection, simple graphics but advanced physics (torque curves, slip angles, aerodynamics, Runge-Kutta integration RK4)",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/rally_roads.png",
+        "published": "2006-01-01T00:00:00Z",
+        "technologies": [
+            "C++",
+            "SDL",
+            "OpenAL"
+        ],
+        "name": "Rally Roads",
+        "url": ""
+    },
+    {
+        "description": "Plugin for playing pacenotes in rFactor racing simulation. The plugin used DirectMusic/DirectSound API to play the audio files. The screenshot is just showing the configuration file in Notepad.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/pacenotes.png",
+        "published": "2006-02-02T00:00:00Z",
+        "technologies": [
+            "C++"
+        ],
+        "name": "rFactor Pacenotes Plugin",
+        "url": ""
+    },
+    {
+        "description": "3D racing game for Android devices. During the development I worked with many interesting topics. In addition to programming, I did 3D modeling with Blender, vector graphics with Inkscape, image editing with GIMP and sound editing with Audacity.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/twc.jpg",
+        "published": "2014-03-03T06:03:32.834Z",
+        "technologies": [
+            "C#",
+            "UnityScript",
+            "Unity"
+        ],
+        "name": "Two Wheel Challenge",
+        "url": "https://play.google.com/store/apps/details?id=com.tomtase.twowheelchallenge"
+    },
+    {
+        "description": "Single-page application for creating and sharing portfolios. The application utilizes MEAN (MongoDB, Express, AngularJS, Node.js) stack. Users can share a link to their portfolio to showcase their talents.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/mpp.jpg",
+        "published": "2014-02-14T05:46:22.486Z",
+        "technologies": [
+            "MongoDB",
+            "Express",
+            "AngularJS",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Swig",
+            "JavaScript"
+        ],
+        "name": "My Projects Portfolio",
+        "url": ""
+    },
+    {
+        "description": "Simple grocery list application for Android. Available for download at the Play store.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/groceries.png",
+        "published": "2013-12-12T00:00:00Z",
+        "technologies": [
+            "Java",
+            "Google Analytics for mobile",
+            "AdSense advertisements"
+        ],
+        "name": "Buy These Groceries",
+        "url": "https://play.google.com/store/apps/details?id=com.tomtase.buythese&hl=fi"
+    },
+    {
+        "description": "A Facebook game where you can create your own racing team and compete with your friends.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/rmo.png",
+        "published": "2013-03-01T00:00:00Z",
+        "technologies": [
+            "Python",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Google App Engine",
+            "Django",
+            "jQuery",
+            "Google Charts"
+        ],
+        "name": "Racing Manager Online",
+        "url": "http://racingmanageronline.appspot.com"
+    },
+    {
+        "description": "I was the webmaster of OtaKoppi ry during 2009 - 2012. During those years I implemented and maintained the otakoppi.fi website. The website was running in Joomla content management system. I also implemented some membership management features with PHP to the site. For example, I created a registration form for new members and some administration functionalities, such as, sending automatically generated emails about membership fee.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/otakoppi.png",
+        "published": "2012-02-12T00:00:00Z",
+        "technologies": [
+            "Joomla",
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS"
+        ],
+        "name": "otakoppi.fi",
+        "url": "http://otakoppi.fi/"
+    },
+    {
+        "description": "I implemented a website for the Finnish Student Championship games in finnish baseball for the years 2010 and 2011. The website had information about the event and a registration form made with PHP.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/opsm.jpg",
+        "published": "2011-10-11T00:00:00Z",
+        "technologies": [
+            "PHP",
+            "MySQL",
+            "HTML",
+            "CSS"
+        ],
+        "name": "otakoppi.fi/opsm",
+        "url": "http://otakoppi.fi/opsm/"
+    },
+    {
+        "description": "Me and my friend implemented the noto.fi website based on already designed visual layouts. I used PHP to create support for multiple languages and to implement a picture gallery.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/noto.jpg",
+        "published": "2010-02-17T00:00:00Z",
+        "technologies": [
+            "PHP",
+            "HTML",
+            "CSS"
+        ],
+        "name": "noto.fi",
+        "url": "http://noto.fi"
+    },
+    {
+        "description": "A reaction game made for S60 touchscreen devices.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/react.jpg",
+        "published": "2009-02-04T00:00:00Z",
+        "technologies": [
+            "C++",
+            "Qt"
+        ],
+        "name": "React",
+        "url": ""
+    },
+    {
+        "description": "I made this game together with my fellow university student. I implemented the skybox, environment mapping and the glow effects.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/cube.jpg",
+        "published": "2009-01-01T00:00:00Z",
+        "technologies": [
+            "Java",
+            "OpenGL",
+            "SDL"
+        ],
+        "name": "Rubik's Cube",
+        "url": ""
+    },
+    {
+        "description": "Turn-based racing game for 1 – 2 players. I also implemented AI driver for the game.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/formula.png",
+        "published": "2007-01-01T00:00:00Z",
+        "technologies": [
+            "Java"
+        ],
+        "name": "Formula peli",
+        "url": ""
+    },
+    {
+        "description": "BigT (Basic internalization/globalization Translations) is an easy to use localization library inpired by QT's tr() translation function. Translations are stored in a CSV file so translators can work, for example, with Excel or Google Sheets.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/BigT.png",
+        "published": "2016-04-10T21:00:00Z",
+        "technologies": [
+            "C#",
+            "MyGet"
+        ],
+        "name": "BigT",
+        "url": "https://github.com/tommiseppanen/BigT"
+    },
+    {
+        "description": "Felis is a single page application I have been developing to study ClojureScript and Reagent.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/felis.png",
+        "published": "2015-04-27T21:00:00Z",
+        "technologies": [
+            "Clojure",
+            "ClojureScript",
+            "Reagent"
+        ],
+        "name": "Felis - Simple todo app",
+        "url": "https://github.com/tommiseppanen/felis"
+    },
+    {
+        "description": "A tile for Windows Start menu for displaying how many hours you have worked today.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/WorkTimeApp.png",
+        "published": "2016-09-23T21:00:00Z",
+        "technologies": [
+            "C#",
+            "UWP"
+        ],
+        "name": "WorkTimeApp",
+        "url": "https://github.com/tommiseppanen/WorkTimeApp"
+    },
+    {
+        "description": "Scala program that runs in AWS cloud. Can be used to enrich RSS feeds so that the feed items will contain the whole article in description field.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/feed-enricher.png",
+        "published": "2016-11-27T21:00:00Z",
+        "technologies": [
+            "Scala",
+            "AWS Lambda",
+            "AWS S3"
+        ],
+        "name": "Feed Enricher",
+        "url": "https://github.com/tommiseppanen/feed-enricher"
+    },
+    {
+        "description": "A web page that lists my hobby programming projects. Uses React for user interface components, ES6 features for data fetching and Webpack for bundling.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/portfolio.jpg",
+        "published": "2016-12-11T21:00:00Z",
+        "technologies": [
+            "React",
+            "ES6",
+            "Sass",
+            "Webpack"
+        ],
+        "name": "Tommi's Portfolio",
+        "url": "https://github.com/tommiseppanen/portfolio"
+    },
+    {
+        "description": "An Unity project that displays my portfolio in virtual reality. I built this to gain experience of virtual reality interaction methods. I also wanted to try out to fetch data asynchronously from web to Unity application.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/middle-of-nowhere.jpg",
+        "published": "2017-02-24T21:00:00Z",
+        "technologies": [
+            "C#",
+            "Cg/HLSL",
+            "Unity"
+        ],
+        "name": "In the Middle of Nowhere",
+        "url": "https://github.com/tommiseppanen/middle-of-nowhere"
+    },
+    {
+        "description": "Open source wheel collider for Unity. I wasn't completely satisfied with Unity's built-in wheel collider so I decided to implement my own.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/primetyre.png",
+        "published": "2017-08-14T21:00:00Z",
+        "technologies": [
+            "C#",
+            "Unity"
+        ],
+        "name": "PrimeTyre",
+        "url": "https://github.com/tommiseppanen/PrimeTyre"
+    },
+    {
+        "description": "Android application that displays when phone was connected to (and disconnected from) Wi-Fi hotspots.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/hotspot-logger.png",
+        "published": "2017-09-24T21:00:00Z",
+        "technologies": [
+            "Kotlin"
+        ],
+        "name": "Hotspot Logger",
+        "url": "https://github.com/tommiseppanen/hotspot-logger"
+    },
+    {
+        "description": "Store/inventory system for Unity. Designed for easy use and customization. Uses Zenject to keep the implementation loosely coupled. Utilizes UniRx to implement Model - View - Reactive Presenter pattern for the user interface.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/simple-store.png",
+        "published": "2018-03-29T21:00:00Z",
+        "technologies": [
+            "C#",
+            "Unity",
+            "UniRx",
+            "Zenject"
+        ],
+        "name": "Simple Store",
+        "url": "https://github.com/tommiseppanen/simple-store"
+    },
+    {
+        "description": "Mobile application for tracking work time.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/nine-to-five.jpg",
+        "published": "2018-07-14T21:00:00Z",
+        "technologies": [
+            "JavaScript",
+            "React Native"
+        ],
+        "name": "Nine to Five",
+        "url": "https://github.com/tommiseppanen/nine-to-five"
+    },
+    {
+        "description": "Easy to use app for tracking baby/newborn feeding times.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/jason.jpg",
+        "published": "2018-08-20T21:00:00Z",
+        "technologies": [
+            "JavaScript",
+            "React Native"
+        ],
+        "name": "Jason",
+        "url": "https://play.google.com/store/apps/details?id=com.tomtase.jason"
+    },
+    {
+        "description": "Single page web template with a guestbook",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/wedding-site.png",
+        "published": "2018-02-05T21:00:00Z",
+        "technologies": [
+            "HTML",
+            "PostCSS",
+            "webpack",
+            "Firebase"
+        ],
+        "name": "Wedding site",
+        "url": ""
+    },
+    {
+        "description": "Wear OS version of the Nine to Five application. Designed for tracking work time.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/nine-to-five-wear.png",
+        "published": "2019-04-21T13:00:00Z",
+        "technologies": [
+            "Kotlin"
+        ],
+        "name": "Nine to Five (Wear OS)",
+        "url": "https://github.com/tommiseppanen/nine-to-five-wear-os"
+    },
+    {
+        "description": "Wear OS watch face with support for complications",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/razorbill.png",
+        "published": "2019-05-31T13:00:00Z",
+        "technologies": [
+            "Kotlin"
+        ],
+        "name": "Razorbill",
+        "url": "https://github.com/tommiseppanen/razorbill"
+    },
+    {
+        "description": "A sleep log application I made to experiment with React hooks and TypeScript",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/zzz-tracker.png",
+        "published": "2020-02-01T13:00:00Z",
+        "technologies": [
+            "TypeScript",
+            "React",
+            "PWA"
+        ],
+        "name": "zzz-tracker",
+        "url": "https://github.com/tommiseppanen/zzz-tracker"
+    },
+    {
+        "description": "Virtual reality application for comparing visual clarity differences between headsets.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/vr-clarity-test.png",
+        "published": "2020-04-21T21:00:00Z",
+        "technologies": [
+            "C#",
+            "Unity"
+        ],
+        "name": "VR Clarity Test",
+        "url": "https://github.com/tommiseppanen/vr-clarity-test"
+    },
+    {
+        "description": "Simple DIY Formula 1 world championship betting game. You can play this with your friends by attaching the script to a shared Google sheet.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/formula-champion.png",
+        "published": "2021-04-05T21:00:00Z",
+        "technologies": [
+            "JavaScript"
+        ],
+        "name": "Formula Champion",
+        "url": "https://github.com/tommiseppanen/formula-champion"
+    },
+    {
+        "description": "A Google Sheets script that works as a helper tool for my Formula Champion game. Helps you to figure out which drivers to bet.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/formula-speculator.jpg",
+        "published": "2022-08-21T12:00:00Z",
+        "technologies": [
+            "JavaScript"
+        ],
+        "name": "Formula Speculator",
+        "url": "https://github.com/tommiseppanen/formula-speculator"
+    },
+    {
+        "description": "A simple wayfinding example. Calculates the route between different gates in Helsinki Airport",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/wayfinding.jpg",
+        "published": "2022-09-17T12:00:00Z",
+        "technologies": [
+            "TypeScript"
+        ],
+        "name": "Wayfinding",
+        "url": "https://github.com/tommiseppanen/wayfinding"
+    },
+    {
+        "description": "A script to export your cycling data from Google Fit to Sheets",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/export-cycling-data-from-fit-to-sheets.png",
+        "published": "2023-05-10T15:00:00Z",
+        "technologies": [
+            "JavaScript"
+        ],
+        "name": "Export cycling data from Fit to Sheets",
+        "url": "https://github.com/tommiseppanen/export-cycling-data-from-fit-to-sheets"
+    }
+]
