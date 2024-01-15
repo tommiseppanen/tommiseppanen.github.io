@@ -427,7 +427,7 @@
         "url": "https://github.com/tommiseppanen/export-cycling-data-from-fit-to-sheets"
     },
     {
-        "description": "After reading an article about the speed of human visual perception, I wanted to test if I could reproduce the same phenomenon with my computer screen. I prepared a simple DX12 app to test the flicker fusion threshold by continuosly rendering black and white frames after each other.",
+        "description": "After reading an article about the speed of human visual perception and flicker fusion, I wanted to test if I could reproduce the same phenomenon with my computer screen. I prepared a simple DX12 app to test the flicker fusion threshold by continuosly rendering black and white frames after each other.",
         "imageurl": "https://tommiseppanen.github.io/screenshots/visual-perception-study.png",
         "published": "2024-01-14T12:00:00Z",
         "technologies": [
