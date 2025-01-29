@@ -437,5 +437,15 @@
         ],
         "name": "Visual perception study",
         "url": "https://github.com/tommiseppanen/visual-perception-study"
+    },
+    {
+        "description": "Experimental programming language. I have been developing this to understand how interpreters and compilers work behind the scenes. I also wanted to try out if generative AI can be used as an interactive study tool and assistant in this kind of project.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/valolang.png",
+        "published": "2025-01-29T12:00:00Z",
+        "technologies": [
+            "Python"
+        ],
+        "name": "valolang",
+        "url": "https://github.com/tommiseppanen/valolang"
     }
 ]
