@@ -453,7 +453,9 @@
         "imageurl": "https://tommiseppanen.github.io/screenshots/9to5-pwa.png",
         "published": "2026-01-23T12:00:00Z",
         "technologies": [
-            "React"
+            "JavaScript",
+            "React",
+            "PWA"
         ],
         "name": "Nine to Five (PWA version)",
         "url": "https://github.com/tommiseppanen/nine-to-five-pwa"
