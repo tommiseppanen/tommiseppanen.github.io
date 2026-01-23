@@ -447,5 +447,15 @@
         ],
         "name": "valolang",
         "url": "https://github.com/tommiseppanen/valolang"
+    },
+    {
+        "description": "This is a PWA version of the original nine-to-five React Native app I wrote in 2018. I was trying out Antigravity to do the conversion.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/9to5-pwa.png",
+        "published": "2026-01-23T12:00:00Z",
+        "technologies": [
+            "React"
+        ],
+        "name": "Nine to Five (PWA version)",
+        "url": "https://github.com/tommiseppanen/nine-to-five-pwa"
     }
 ]
