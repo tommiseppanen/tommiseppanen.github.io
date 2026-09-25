@@ -1,57 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Rally Slide</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      padding: 1.5rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1 { font-size: 1.6rem; margin-bottom: 1rem; }
-    h2 { font-size: 1.2rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
-    p { margin: 0.5rem 0 1rem; }
-    ul { margin: 0.5rem 0 1rem 1.5rem; }
-    li { margin-bottom: 0.3rem; }
-    a { color: #0066cc; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .effective-date { font-style: italic; color: #666; }
-    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #eee; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience thrilling rally racing with Rally Slide! Leave the gravel behind and slide into corners with physics designed for pure enjoyment.">
+    <meta name="theme-color" content="#000000">
+    <title>Rally Slide - Master the Drift | Rally Racing Game</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
+
+    <!-- Google Fonts for Racing & Brush Logo Aesthetics -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@1,900&family=Permanent+Marker&family=Syncopate:wght@400;700&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="bw-theme">
 
-  <h1>Rally Slide</h1>
+    <!-- Header Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo" id="brand-logo-link">
+                <img src="./images/icon.png" alt="Rally Slide Icon" class="logo-img" id="nav-logo-img">
+                <img src="./images/title.png" alt="Rally Slide" class="nav-title-img" id="nav-title-img">
+            </a>
 
-  <p>Experience thrilling rally racing with an addictive, fun handling model! Leave the gravel behind and slide into corners with physics designed for pure enjoyment. Whether you're a casual racer or a rally enthusiast, the intuitive controls make every hairpin turn feel incredibly satisfying.</p>
+            <nav class="nav-links" id="nav-menu">
+                <a href="#hero" class="nav-link">Overview</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#why-love-it" class="nav-link">Why Play</a>
+                <a href="#playstore" class="nav-link">Get Game</a>
+            </nav>
 
-  <p>Conquer diverse terrains, upgrade your ride, and prove your skills against the world!</p>
+            <div class="nav-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button nav-cta" id="nav-playstore-btn">
+                    <span class="btn-text">GET IT ON GOOGLE PLAY</span>
+                    <span class="btn-icon">▶</span>
+                </a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
-  <h2>Game Features</h2>
-  <ul>
-    <li><strong>Epic Career Mode:</strong> Rise through the ranks from a rookie driver to a rally legend. Take on challenging championships and build your racing legacy.</li>
-    <li><strong>Global Time Trials:</strong> Every millisecond counts. Race against the clock on your favorite tracks and climb the global leaderboards to claim your spot as the ultimate speed demon.</li>
-    <li><strong>Diverse Stages &amp; Environments:</strong> Adapt your driving style to unpredictable conditions. Power through loose gravel, grip the tight corners of winding tarmac, and slide through treacherous, icy snow stages.</li>
-    <li><strong>Car Customization:</strong> Your garage, your rules. Collect and upgrade a variety of car parts to drastically change your vehicle's performance.</li>
-  </ul>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-wrapper">
+                <img src="./images/feature.png" alt="Rally Slide Teaser Graphic" class="hero-bg-img" id="hero-feature-img">
+                <div class="hero-overlay"></div>
+                <div class="hero-grid-pattern"></div>
+            </div>
 
-  <h2>Why You’ll Love It</h2>
-  <ul>
-    <li><strong>Entertaining Handling:</strong> A perfect blend of arcade fun and satisfying drift physics that is easy to pick up but tough to master.</li>
-    <li><strong>Stunning Visuals &amp; Sound:</strong> Feel the roar of the engine and the dust cloud of gravel with immersive audio and graphics.</li>
-    <li><strong>Play Anywhere:</strong> Optimized for a smooth racing experience across a wide range of devices.</li>
-  </ul>
+            <div class="container hero-content">
+                <div class="badge-tag animate-fade-in" id="hero-badge">
+                    <span class="badge-text">PURE DRIFT PHYSICS & ADDICTIVE HANDLING</span>
+                </div>
 
-  <p>Are you ready to race and conquer the leaderboard? Download now and hit the gas!</p>
+                <h1 class="hero-brand-header animate-fade-in">
+                    <img src="./images/title.png" alt="Rally Slide - Master the Drift" class="hero-title-img" id="hero-title-img">
+                </h1>
 
-  <footer>
-    <p><a href="https://tommiseppanen.github.io/rally/privacy-policy.html">Privacy Policy</a></p>
-  </footer>
+                <h2 class="hero-title animate-fade-in" id="main-headline">
+                    LEAVE THE GRAVEL BEHIND.<br>
+                    <span class="text-stroke">SLIDE INTO VICTORY.</span>
+                </h2>
 
+                <p class="hero-description animate-fade-in" id="hero-desc">
+                    Experience thrilling rally racing with an addictive, fun handling model! Leave the gravel behind and slide into corners with physics designed for pure enjoyment. Whether you're a casual racer or a rally enthusiast, the intuitive controls make every hairpin turn feel incredibly satisfying.
+                </p>
+
+                <p class="hero-tagline animate-fade-in" id="hero-tagline">
+                    Conquer diverse terrains, upgrade your ride, and prove your skills against the world!
+                </p>
+
+                <div class="hero-buttons animate-fade-in" id="hero-cta-group">
+                    <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button primary-btn" id="hero-primary-playstore-btn">
+                        <span class="btn-text">GET IT ON GOOGLE PLAY</span>
+                        <span class="btn-icon">▶</span>
+                    </a>
+                    <a href="#features" class="cta-button secondary-btn" id="hero-explore-features-btn">
+                        <span class="btn-text">DISCOVER FEATURES</span>
+                    </a>
+                </div>
+
+                <!-- Live Quick Stats Strip -->
+                <div class="hero-stats-strip animate-fade-in" id="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">Arcade Physics Fun</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value">4+</span>
+                        <span class="stat-label">Extreme Surfaces</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value">GLOBAL</span>
+                        <span class="stat-label">Time Trials</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value">60 FPS</span>
+                        <span class="stat-label">Smooth Performance</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Features Section -->
+        <section class="section features-section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">KEY HIGHLIGHTS</span>
+                    <h2 class="section-title">GAME FEATURES</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="features-grid">
+                    <!-- Feature 1: Career Mode -->
+                    <div class="feature-card glass-panel" id="feature-career">
+                        <div class="card-icon-wrapper">
+                            <img src="./images/trophy.svg" alt="Trophy Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="card-icon-fallback" style="display:none;">🏆</span>
+                            <span class="card-number">01</span>
+                        </div>
+                        <h3 class="feature-title">EPIC CAREER MODE</h3>
+                        <p class="feature-text">
+                            Rise through the ranks from a rookie driver to a rally legend. Take on challenging championships and build your racing legacy.
+                        </p>
+                        <div class="feature-footer">
+                            <span class="feature-tag">CHAMPIONSHIPS</span>
+                            <span class="feature-tag">ROOKIE TO PRO</span>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2: Time Trials -->
+                    <div class="feature-card glass-panel" id="feature-timetrial">
+                        <div class="card-icon-wrapper">
+                            <img src="./images/stopwatch.svg" alt="Stopwatch Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="card-icon-fallback" style="display:none;">⏱️</span>
+                            <span class="card-number">02</span>
+                        </div>
+                        <h3 class="feature-title">GLOBAL TIME TRIALS</h3>
+                        <p class="feature-text">
+                            Every millisecond counts. Race against the clock on your favorite tracks and climb the global leaderboards to claim your spot as the ultimate speed demon.
+                        </p>
+                        <div class="feature-footer">
+                            <span class="feature-tag">MILLISECOND PRECISION</span>
+                            <span class="feature-tag">LEADERBOARDS</span>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3: Diverse Stages -->
+                    <div class="feature-card glass-panel" id="feature-stages-card">
+                        <div class="card-icon-wrapper">
+                            <img src="./images/road.svg" alt="Road Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="card-icon-fallback" style="display:none;">🛣️</span>
+                            <span class="card-number">03</span>
+                        </div>
+                        <h3 class="feature-title">DIVERSE STAGES & ENVIRONMENTS</h3>
+                        <p class="feature-text">
+                            Adapt your driving style to unpredictable conditions. Power through loose gravel, grip the tight corners of winding tarmac, and slide through treacherous, icy snow stages.
+                        </p>
+                        <div class="feature-footer">
+                            <span class="feature-tag">GRAVEL</span>
+                            <span class="feature-tag">TARMAC</span>
+                            <span class="feature-tag">SNOW & ICE</span>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4: Car Customization -->
+                    <div class="feature-card glass-panel" id="feature-garage">
+                        <div class="card-icon-wrapper">
+                            <img src="./images/garage.svg" alt="Garage Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <span class="card-icon-fallback" style="display:none;">🔧</span>
+                            <span class="card-number">04</span>
+                        </div>
+                        <h3 class="feature-title">CAR CUSTOMIZATION</h3>
+                        <p class="feature-text">
+                            Your garage, your rules. Collect and upgrade a variety of car parts to drastically change your vehicle's performance.
+                        </p>
+                        <div class="feature-footer">
+                            <span class="feature-tag">PARTS & TUNING</span>
+                            <span class="feature-tag">PERFORMANCE UPGRADES</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why You'll Love It Section -->
+        <section class="section why-section" id="why-love-it">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="section-subtitle">THE DRIVER'S CHOICE</span>
+                    <h2 class="section-title">WHY YOU’LL LOVE IT</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="why-grid">
+                    <!-- Reason 1 -->
+                    <div class="why-card glass-panel" id="why-card-handling">
+                        <div class="why-icon">🚗</div>
+                        <h3 class="why-title">ENTERTAINING HANDLING</h3>
+                        <p class="why-text">
+                            A perfect blend of arcade fun and satisfying drift physics that is easy to pick up but tough to master.
+                        </p>
+                    </div>
+
+                    <!-- Reason 2 -->
+                    <div class="why-card glass-panel" id="why-card-visuals">
+                        <div class="why-icon">🔊</div>
+                        <h3 class="why-title">STUNNING VISUALS & SOUND</h3>
+                        <p class="why-text">
+                            Feel the roar of the engine and the dust cloud of gravel with immersive audio and graphics.
+                        </p>
+                    </div>
+
+                    <!-- Reason 3 -->
+                    <div class="why-card glass-panel" id="why-card-everywhere">
+                        <div class="why-icon">📱</div>
+                        <h3 class="why-title">PLAY ANYWHERE</h3>
+                        <p class="why-text">
+                            Optimized for a smooth racing experience across a wide range of devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Call to Action Banner -->
+        <section class="section cta-banner-section" id="playstore">
+            <div class="container">
+                <div class="cta-box glass-panel" id="final-cta-card">
+                    <div class="cta-content">
+                        <h2 class="cta-headline" id="cta-headline-text">
+                            ARE YOU READY TO RACE AND CONQUER THE LEADERBOARD?
+                        </h2>
+                        <p class="cta-subtext" id="cta-subtext-text">
+                            Hit the gas and get Rally Slide on Google Play!
+                        </p>
+
+                        <div class="cta-action-buttons">
+                            <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button primary-btn download-btn-lg" id="final-playstore-btn">
+                                <span class="btn-text">GET IT ON GOOGLE PLAY</span>
+                                <span class="btn-icon">▶</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+            </div>
+            <p class="footer-copy">
+                &copy; 2026 Tommi Seppänen. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
