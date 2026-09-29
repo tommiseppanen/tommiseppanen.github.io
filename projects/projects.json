@@ -459,5 +459,16 @@
         ],
         "name": "Nine to Five (PWA version)",
         "url": "https://github.com/tommiseppanen/nine-to-five-pwa"
+    },
+    {
+        "description": "An arcade racing game featuring custom vehicle handling physics, a career mode, and car customization. It combines high-framerate performance with online features, including global leaderboards and cloud game saves.",
+        "imageurl": "https://tommiseppanen.github.io/screenshots/rally.jpg",
+        "published": "2026-09-18T12:00:00Z",
+        "technologies": [
+            "C#",
+            "Unity"
+        ],
+        "name": "Rally Slide",
+        "url": "https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en"
     }
 ]
