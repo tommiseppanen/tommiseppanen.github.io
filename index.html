@@ -1,281 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience thrilling rally racing with Rally Slide! Leave the gravel behind and slide into corners with physics designed for pure enjoyment.">
-    <meta name="theme-color" content="#000000">
-    <title>Rally Slide - Master the Drift | Rally Racing Game</title>
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <link rel="apple-touch-icon" href="./images/favicon.png">
-
-    <!-- Google Fonts for Racing & Brush Logo Aesthetics -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@1,900&family=Permanent+Marker&family=Syncopate:wght@400;700&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Homepage</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter & Material Symbols Outlined -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    /* Subtle background grid pattern */
+    .bg-grid {
+      background-size: 32px 32px;
+      background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    }
+  </style>
 </head>
-<body class="bw-theme">
+<body class="min-h-screen bg-slate-950 text-slate-100 flex flex-col justify-center items-center selection:bg-indigo-500 selection:text-white bg-grid relative overflow-x-hidden p-6">
 
-    <!-- Header Navigation -->
-    <header class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#" class="brand-logo" id="brand-logo-link">
-                <img src="./images/icon.png" alt="Rally Slide Icon" class="logo-img" id="nav-logo-img">
-                <img src="./images/title.png" alt="Rally Slide" class="nav-title-img" id="nav-title-img">
-            </a>
+  <!-- Subtle glow background effects -->
+  <div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-gradient-to-tr from-indigo-600/20 via-sky-500/20 to-teal-400/10 blur-[130px] rounded-full"></div>
+    <div class="absolute bottom-10 right-10 w-72 h-72 bg-indigo-500/10 blur-[100px] rounded-full"></div>
+  </div>
 
-            <nav class="nav-links" id="nav-menu">
-                <a href="#hero" class="nav-link">Overview</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#why-love-it" class="nav-link">Why Play</a>
-                <a href="#playstore" class="nav-link">Get Game</a>
-            </nav>
+  <main class="w-full max-w-2xl mx-auto flex flex-col justify-center">
+    <section class="text-center space-y-4 mb-10">
+      <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-white">
+        Welcome to my homepage
+      </h1>
+      <p class="text-base sm:text-lg text-slate-400 max-w-md mx-auto leading-relaxed">
+        Explore my projects below.
+      </p>
+    </section>
 
-            <div class="nav-actions">
-                <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button nav-cta" id="nav-playstore-btn">
-                    <span class="btn-text">GET IT ON GOOGLE PLAY</span>
-                    <span class="btn-icon">▶</span>
-                </a>
-                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      
+      <!-- Card 1: Portfolio Link -->
+      <a href="https://tommiseppanen.github.io/portfolio" 
+         class="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-800 bg-slate-900/70 hover:bg-slate-900/90 hover:border-indigo-500/50 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-indigo-500/10">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+            <!-- Material Symbols: folder -->
+            <span class="material-symbols-outlined text-[20px] select-none">folder</span>
+          </div>
+          <h2 class="text-lg font-semibold text-white group-hover:text-indigo-300 transition-colors flex items-center gap-2">
+            Portfolio
+            <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-indigo-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </h2>
+          <p class="mt-2 text-sm text-slate-400 leading-normal">
+            Take a look at my hobby projects.
+          </p>
         </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section class="hero-section" id="hero">
-            <div class="hero-bg-wrapper">
-                <img src="./images/feature.png" alt="Rally Slide Teaser Graphic" class="hero-bg-img" id="hero-feature-img">
-                <div class="hero-overlay"></div>
-                <div class="hero-grid-pattern"></div>
-            </div>
-
-            <div class="container hero-content">
-                <div class="badge-tag animate-fade-in" id="hero-badge">
-                    <span class="badge-text">PURE DRIFT PHYSICS & ADDICTIVE HANDLING</span>
-                </div>
-
-                <h1 class="hero-brand-header animate-fade-in">
-                    <img src="./images/title.png" alt="Rally Slide - Master the Drift" class="hero-title-img" id="hero-title-img">
-                </h1>
-
-                <h2 class="hero-title animate-fade-in" id="main-headline">
-                    LEAVE THE GRAVEL BEHIND.<br>
-                    <span class="text-stroke">SLIDE INTO VICTORY.</span>
-                </h2>
-
-                <p class="hero-description animate-fade-in" id="hero-desc">
-                    Experience thrilling rally racing with an addictive, fun handling model! Leave the gravel behind and slide into corners with physics designed for pure enjoyment. Whether you're a casual racer or a rally enthusiast, the intuitive controls make every hairpin turn feel incredibly satisfying.
-                </p>
-
-                <p class="hero-tagline animate-fade-in" id="hero-tagline">
-                    Conquer diverse terrains, upgrade your ride, and prove your skills against the world!
-                </p>
-
-                <div class="hero-buttons animate-fade-in" id="hero-cta-group">
-                    <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button primary-btn" id="hero-primary-playstore-btn">
-                        <span class="btn-text">GET IT ON GOOGLE PLAY</span>
-                        <span class="btn-icon">▶</span>
-                    </a>
-                    <a href="#features" class="cta-button secondary-btn" id="hero-explore-features-btn">
-                        <span class="btn-text">DISCOVER FEATURES</span>
-                    </a>
-                </div>
-
-                <!-- Live Quick Stats Strip -->
-                <div class="hero-stats-strip animate-fade-in" id="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-value">100%</span>
-                        <span class="stat-label">Fun Arcade Physics</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-value">4+</span>
-                        <span class="stat-label">Extreme Surfaces</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-value">GLOBAL</span>
-                        <span class="stat-label">Time Trials</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat-item">
-                        <span class="stat-prefix">UP TO</span>
-                        <span class="stat-value">120 FPS</span>
-                        <span class="stat-label">Ultra-Smooth Racing</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Game Features Section -->
-        <section class="section features-section" id="features">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-subtitle">KEY HIGHLIGHTS</span>
-                    <h2 class="section-title">GAME FEATURES</h2>
-                    <div class="title-underline"></div>
-                </div>
-
-                <div class="features-grid">
-                    <!-- Feature 1: Career Mode -->
-                    <div class="feature-card glass-panel" id="feature-career">
-                        <div class="card-icon-wrapper">
-                            <img src="./images/trophy.svg" alt="Trophy Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <span class="card-icon-fallback" style="display:none;">🏆</span>
-                            <span class="card-number">01</span>
-                        </div>
-                        <h3 class="feature-title">EPIC CAREER MODE</h3>
-                        <p class="feature-text">
-                            Rise through the ranks from a rookie driver to a rally legend. Take on challenging championships and build your racing legacy.
-                        </p>
-                        <div class="feature-footer">
-                            <span class="feature-tag">CHAMPIONSHIPS</span>
-                            <span class="feature-tag">ROOKIE TO PRO</span>
-                        </div>
-                    </div>
-
-                    <!-- Feature 2: Time Trials -->
-                    <div class="feature-card glass-panel" id="feature-timetrial">
-                        <div class="card-icon-wrapper">
-                            <img src="./images/stopwatch.svg" alt="Stopwatch Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <span class="card-icon-fallback" style="display:none;">⏱️</span>
-                            <span class="card-number">02</span>
-                        </div>
-                        <h3 class="feature-title">GLOBAL TIME TRIALS</h3>
-                        <p class="feature-text">
-                            Every millisecond counts. Race against the clock on your favorite tracks and climb the global leaderboards to claim your spot as the ultimate speed demon.
-                        </p>
-                        <div class="feature-footer">
-                            <span class="feature-tag">MILLISECOND PRECISION</span>
-                            <span class="feature-tag">LEADERBOARDS</span>
-                        </div>
-                    </div>
-
-                    <!-- Feature 3: Diverse Stages -->
-                    <div class="feature-card glass-panel" id="feature-stages-card">
-                        <div class="card-icon-wrapper">
-                            <img src="./images/road.svg" alt="Road Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <span class="card-icon-fallback" style="display:none;">🛣️</span>
-                            <span class="card-number">03</span>
-                        </div>
-                        <h3 class="feature-title">DIVERSE STAGES & ENVIRONMENTS</h3>
-                        <p class="feature-text">
-                            Adapt your driving style to unpredictable conditions. Power through loose gravel, grip the tight corners of winding tarmac, and slide through treacherous, icy snow stages.
-                        </p>
-                        <div class="feature-footer">
-                            <span class="feature-tag">GRAVEL</span>
-                            <span class="feature-tag">TARMAC</span>
-                            <span class="feature-tag">SNOW & ICE</span>
-                        </div>
-                    </div>
-
-                    <!-- Feature 4: Car Customization -->
-                    <div class="feature-card glass-panel" id="feature-garage">
-                        <div class="card-icon-wrapper">
-                            <img src="./images/garage.svg" alt="Garage Icon" class="card-icon-svg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                            <span class="card-icon-fallback" style="display:none;">🔧</span>
-                            <span class="card-number">04</span>
-                        </div>
-                        <h3 class="feature-title">CAR CUSTOMIZATION</h3>
-                        <p class="feature-text">
-                            Your garage, your rules. Collect and upgrade a variety of car parts to drastically change your vehicle's performance.
-                        </p>
-                        <div class="feature-footer">
-                            <span class="feature-tag">PARTS</span>
-                            <span class="feature-tag">PERFORMANCE UPGRADES</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Why You'll Love It Section -->
-        <section class="section why-section" id="why-love-it">
-            <div class="container">
-                <div class="section-header center">
-                    <span class="section-subtitle">THE DRIVER'S CHOICE</span>
-                    <h2 class="section-title">WHY YOU’LL LOVE IT</h2>
-                    <div class="title-underline"></div>
-                </div>
-
-                <div class="why-grid">
-                    <!-- Reason 1 -->
-                    <div class="why-card glass-panel" id="why-card-handling">
-                        <div class="why-icon">🚗</div>
-                        <h3 class="why-title">ENTERTAINING HANDLING</h3>
-                        <p class="why-text">
-                            A perfect blend of arcade fun and satisfying drift physics that is easy to pick up but tough to master.
-                        </p>
-                    </div>
-
-                    <!-- Reason 2 -->
-                    <div class="why-card glass-panel" id="why-card-visuals">
-                        <div class="why-icon">🔊</div>
-                        <h3 class="why-title">STUNNING VISUALS & SOUND</h3>
-                        <p class="why-text">
-                            Feel the roar of the engine and the dust cloud of gravel with immersive audio and graphics.
-                        </p>
-                    </div>
-
-                    <!-- Reason 3 -->
-                    <div class="why-card glass-panel" id="why-card-everywhere">
-                        <div class="why-icon">📱</div>
-                        <h3 class="why-title">PLAY ANYWHERE</h3>
-                        <p class="why-text">
-                            Optimized for a smooth racing experience across a wide range of devices.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Final Call to Action Banner -->
-        <section class="section cta-banner-section" id="playstore">
-            <div class="container">
-                <div class="cta-box glass-panel" id="final-cta-card">
-                    <div class="cta-content">
-                        <h2 class="cta-headline" id="cta-headline-text">
-                            ARE YOU READY TO RACE AND CONQUER THE LEADERBOARD?
-                        </h2>
-                        <p class="cta-subtext" id="cta-subtext-text">
-                            Hit the gas and get Rally Slide on Google Play!
-                        </p>
-
-                        <div class="cta-action-buttons">
-                            <a href="https://play.google.com/store/apps/details?id=com.tomtase.rally&hl=en" target="_blank" rel="noopener noreferrer" class="cta-button primary-btn download-btn-lg" id="final-playstore-btn">
-                                <span class="btn-text">GET IT ON GOOGLE PLAY</span>
-                                <span class="btn-icon">▶</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-links">
-                <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-            </div>
-            <p class="footer-copy">
-                &copy; 2026 Tommi Seppänen. All rights reserved.
-            </p>
+        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center text-xs font-medium text-slate-400 group-hover:text-indigo-400 transition-colors">
+          <span>View portfolio</span>
+          <span class="ml-1">→</span>
         </div>
-    </footer>
+      </a>
 
-    <!-- Script -->
-    <script src="script.js"></script>
+      <!-- Card 2: Rally Game Link -->
+      <a href="https://tommiseppanen.github.io/rally/" 
+         class="group relative flex flex-col justify-between p-6 rounded-2xl border border-slate-800 bg-slate-900/70 hover:bg-slate-900/90 hover:border-amber-500/50 backdrop-blur-md transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-amber-500/10">
+        <div>
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+            <!-- Material Symbols: sports_score (checkered flag) -->
+            <span class="material-symbols-outlined text-[20px] select-none">sports_score</span>
+          </div>
+          <h2 class="text-lg font-semibold text-white group-hover:text-amber-300 transition-colors flex items-center gap-2">
+            Rally slide game
+            <svg class="w-4 h-4 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </h2>
+          <p class="mt-2 text-sm text-slate-400 leading-normal">
+            Check out my Android game
+          </p>
+        </div>
+        <div class="mt-6 pt-4 border-t border-slate-800/80 flex items-center text-xs font-medium text-slate-400 group-hover:text-amber-400 transition-colors">
+          <span>Check out Rally Slide</span>
+          <span class="ml-1">→</span>
+        </div>
+      </a>
+
+    </div>
+  </main>
+
 </body>
 </html>
